@@ -1,1 +1,106 @@
+/* Element tags */
+body {
+    background-color: rgb(254, 183, 254);
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: black;
+    margin: 20px;
+    max-width: 1000px;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 5px 15px 20px 15px;
+    border: 3px solid black;
+    min-width: 120px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    box-shadow: 3px 3px 10px rgb(255, 149, 255); 
+    transform: translateY(-5px);
+}
+
+#footer {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+/* Class tags */
+.question {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+}
+
+.prompt {
+    background-color: white;
+    margin: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(77, 77, 77);
+}
+
+.container {
+    display: flex;
+    margin: 50px;
+}
+
+.block {
+    display: block;
+    margin: 30px;
+}
+
+.questionNumber {
+    display: inline;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px white;
+}
+
+/* ID tags */
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    background-color: rgb(165, 5, 165);
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(77, 77, 77);
+}
+
+#q1, #q2, #q3 {
+    display: none;
+    margin: 0px 200px;
+}
+
+/* Animations */
+
+
 
