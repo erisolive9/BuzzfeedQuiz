@@ -1,6 +1,6 @@
 /* Element tags */
 body {
-    background-color: rgb(254, 183, 254);
+    background-color: rgb(255, 201, 255);
 }
 
 h2 {
@@ -34,15 +34,6 @@ button:hover {
     transform: translateY(-5px);
 }
 
-#footer {
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
-    background-color: white;
-    left: 0;
-    bottom: 0;
-    padding: 20px;
-}
 
 /* Class tags */
 .question {
@@ -60,7 +51,7 @@ button:hover {
 
 .container {
     display: flex;
-    margin: 50px;
+    margin: 20px;
 }
 
 .block {
@@ -72,14 +63,14 @@ button:hover {
     display: inline;
     height: 40px;
     width: 40px;
-    background-color: white;
+    background-color: rgb(186, 245, 255);
     color: black;
     font-size: 48px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 30px;
-    border: 5px solid black;
+    padding: 20px;
+    border: 7px solid black;
     border-radius: 20px;
-    box-shadow: 2px 2px 20px white;
+    box-shadow: 2px 2px 20px rgb(77, 77, 77);
 }
 
 /* ID tags */
@@ -95,12 +86,77 @@ button:hover {
     box-shadow: 5px 5px 20px rgb(77, 77, 77);
 }
 
+#intro {
+    margin: 40px 100px 30px 100px;
+}
+
+#introPic {
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px rgb(77, 77, 77);
+}
+
 #q1, #q2, #q3 {
     display: none;
     margin: 0px 200px;
 }
 
-/* Animations */
+#footer {
+    display: absolute;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    width: auto;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    margin: 0px;
+}
 
+#resultsSection {
+    display: none;
+    animation: slideInRight 0.8s;
+    margin: 30px 200px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+}
+
+#resultText{
+    background-color: rgb(182, 243, 182);
+    color: rgb(76, 112, 76);
+    padding: 10px;
+    font-size: 36px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid rgb(76, 112, 76);
+    box-shadow: 5px 5px 5px rgb(77, 77, 77);
+}
+
+#resultImage {
+    margin: 50px 10px 10px 0px;
+    justify-content: center;
+}
+
+#explanation {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 1.2;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+/* Animations */
+@keyframes slideInRight {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
 
 
