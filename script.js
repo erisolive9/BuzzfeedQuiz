@@ -4,6 +4,7 @@ let intro = document.getElementById("intro");
 let q1 = document.getElementById("q1");
 let q2 = document.getElementById("q2");
 let q3 = document.getElementById("q3");
+let footer = document.getElementById("footer");
 
 //Creating variables for the results screens
 let resultsSection = document.getElementById("resultsSection");
@@ -36,6 +37,7 @@ start.onclick = function() {
     //Hide intro page, show question 1
     intro.style.display = "none"
     q1.style.display = "flex"
+    footer.style.display = "block"
 };
 
 //Question 1:
@@ -77,6 +79,7 @@ easy.onclick = function() {
     q3.style.display = "none"
     //Show results screen
     resultsSection.style.display = "block"
+    footer.style.display = "block"
     getResults(question1, question2, question3)
 };
 
@@ -86,6 +89,7 @@ challenge.onclick = function() {
     q3.style.display = "none"
     //Shows results screen
     resultsSection.style.display = "block"
+    footer.style.display = "block"
     getResults(question1, question2, question3)
 };
 
